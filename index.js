@@ -7,7 +7,7 @@ const swaggerUI = require("swagger-ui-express");
 const basicAuth = require('express-basic-auth');
 
 let MongoUrl = Config.MONGODB_URL
-if (Config.MODE === "LIVE") { MongoUrl = Config.MONGODB_URL_2 }
+if (Config.MODE === "LIVE") { MongoUrl = Config.MONGODB_URL_2}
 connectionMongoDb(MongoUrl);
 
 const app = ExpressLoader.init();

@@ -19,8 +19,8 @@ module.exports.Config = {
       'Authorization': 'Basic ay0zZmY0ZDYzNy0yY2UzLTQ2Y2UtYTAzMS0wZDEyMDAwOTM1MzE6cy1kNzlmOTk5MC1iYTBjLTRmNTctOTA5MS03NWYyZTQ1ZTA1Njk='
     },
     MAIL_CONFIG_ID : '6538c0364756928875840840',
-    MONGODB_URL_2 : 'mongodb+srv://kafila:GeFi0weSeFN19FBv@cluster0.c7fohxg.mongodb.net/b2bportal',
-
+    MONGODB_URL_2 : 'mongodb://appadmin:A@@dm$n321@127.0.0.1:22324?authSource=admin/b2bportal',
+//mongodb+srv://kafila:GeFi0weSeFN19FBv@cluster0.c7fohxg.mongodb.net
     PAYMENT_CREDENTIALS_PAYU: {
       LIVE: {
         salt: "qg0bLpmz",
